@@ -1,0 +1,16 @@
+________________________modes of operation__________________
+
+
+                                     modes of operation
+                                            |
+                           _________________|_________________
+                          |                                   |
+                          v                                   v
+                         c-program modes                    c++ - object
+                         ---------                         -----
+                           r- read                        ios::in (ifstream obj)
+                           w- write                       ios::out (ofstream obj)
+                           r+ -read+                      ios::in|ios::out (fstream obj)
+                           w+ -write+                     ios::in|ios::out|ios::trunc (fstream obj)
+                           a- append                      ios::app(ofstream obj)
+                           a+                             ios::app|ios::in (fstream obj) 

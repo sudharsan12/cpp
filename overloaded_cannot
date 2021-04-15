@@ -1,0 +1,7 @@
+there are some character you cannot overloaded
+
+.(Dot operator)
+::(scope resolution operator)
+?:(conditional operator)
+sizeof() (sizeof operator)
+
